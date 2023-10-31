@@ -1,0 +1,82 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+  }
+  header {
+    background-color: rgb(229, 181, 127);
+    padding: 40px 0;
+  }
+  header .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  nav ul {
+    display: flex;
+    gap: 60px;
+    list-style: none;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #1e1928;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  
+  .family {
+    background-color: rgb(229, 181, 127);
+    padding: 100px 0;
+  }
+  .family .container {
+    display: flex;
+    gap: 100px;
+  }
+  h1 {
+    font-size: 70px;
+  }
+  .family-text p {
+    max-width: 576px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.25200000405311584px;
+    margin: 24px 0;
+  }
+  .input-box{
+      position: relative;
+  }
+
+  .btn{
+      background-color: rgb(22, 82, 9);
+      color: rgb(255, 255, 255);
+      padding: 8px 14px;
+      border-radius: 20px;
+      position: absolute;
+      top: 8px;
+    }
+   .lo{  height: 600px;
+    width: 650px
+    }
+    .ol{ position: absolute;
+         height: 200px;
+    width: 200px;
+    left: -100px;
+    top: -80px;
+}
+.family-img{  position: relative;}
+.collection h2{
+    text-align: center;
+    font-size: 50px;
+}
+.Danche{    display: flex;
+padding: 100px 40px;
+}
+.DANCHE-text h3{
+font-size: 48px;
+
+}
